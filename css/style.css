@@ -1,0 +1,101 @@
+/* Coolors Palette: https://coolors.co/594157-726da8-7d8cc4-a0d2db-bee7e8 */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #bee7e8;
+    color: #594157;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header, footer {
+    background-color: #594157;
+    color: #bee7e8;
+    padding: 1.5em;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #726da8;
+    padding: 1em;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav a {
+    color: #bee7e8;
+    text-decoration: none;
+    margin: 0 1.5em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #a0d2db;
+    text-decoration: none; /* Remove underline on hover */
+}
+
+section {
+    padding: 4em 2em;
+    max-width: 800px;
+    margin: 0 auto;
+    border-bottom: 1px solid #a0d2db;
+}
+
+form {
+    display: grid;
+    gap: 1.5em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    color: #594157;
+}
+
+input, select, textarea {
+    padding: 0.8em;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #594157;
+    border: 1px solid #7d8cc4;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #7d8cc4;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #726da8;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 0.8em 0;
+    }
+    section {
+        padding: 2em 1em;
+    }
+}
